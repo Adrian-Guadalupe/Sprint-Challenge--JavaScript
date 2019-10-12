@@ -39,7 +39,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explanation: 
 
-//////// Since the variable 'internal' isn't defined within the scope of the function 'nested function', the function is is looking outside the scope chain for the variable being referenced in an outer scope. This is what closure is about. ///////
+//////// Since the variable 'internal' isn't defined within the scope of the function 'nested function', the function is is looking for the variable 'internal' outside the scope chain, in an outer scope. This is what closure is about. ///////
 
 
 const external = "I'm outside the function";
